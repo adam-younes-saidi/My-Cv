@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Cairo", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    height: 2000px;
+}
+header{
+    display: flex;
+    background-color:rgb(212, 229, 223);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+}
+.logo{
+    color: red;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+nav a{
+color: red;
+text-decoration: none;
+font-size: 18px;
+font-weight: 600;
+padding-left: 30px;
+}
+nav a:hover{
+    color: blue;
+    font-weight: 900;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(https://us.123rf.com/450wm/jpdccouk/jpdccouk2306/jpdccouk230600159/207619012-abstract-white-crumpled-paper-heart-on-grey-wall-plaster-texture-background-a-i-generated.jpg?ver=6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section{
+    padding: 100px 120px;
+}
+.content h2{
+    color: beige;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.content h2 span{
+    color: red;
+}
+.content h3{
+    color: azure;
+    font-size:40px;
+    font-weight: bold;
+}
+.contact-me{
+    display: inline-block;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: 0.5s ease;
+}
+.contact-me:hover{
+    background-color:rgb(215, 138, 138);
+    transform: scale(1.1);
+}
+.social a{
+    color: white;
+    font-size: 30px;
+    padding-right: 25px;
+}
+/*--------------------------------*/
+.our-servises{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.our-servises h2{
+    color: red;
+    font-size: 35px;
+}
+.our-servises p{
+    color: rgb(51, 47, 47);
+    font-size: 20px;
+    margin-bottom: 40px;
+
+}
+.services{
+    display: flex;
+}
+.box{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(206, 200, 190);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.box:hover{
+    background-color: rgb(245, 242, 242);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px red;
+    transform: scale(1.1);
+
+}
+.icon{
+    color: red;
+    font-size: 35px;
+}
+.portfolio{
+    text-align: center;
+}
+.portfolio h2{
+    color: red;
+    font-size: 35px;
+}
+.portfolio p{
+    color: rgb(51, 47, 47);
+    font-size: 20px;
+    margin-bottom: 40px;
+
+}
+.photos{
+    display: flex; 
+}
+.photo{
+    margin: 20px;
+}
+.photos img{
+    height: 200px;
+    width: 100%;
+}
+/* ------------------------------ */
+.contact-us{
+    background-color: #eee;
+    text-align: center;
+}
+.contact-us h2{
+    color: red;
+    font-size: 35px;
+}
+.contact-us p{
+    color: rgb(51, 47, 47);
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.contact-area{
+    width: 60%;
+    background-color: white;
+    margin: 20px auto;
+    padding: 35px;
+    border: 1px  solid #e6e3e3;
+    border-radius: 15px;
+}
+.form-input input{
+    width: 60%;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px  solid #dfd5d5;
+}
+.form-input textarea{
+    width: 60%;
+    
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px  solid #dfd5d5;
+}
+.send{
+    padding: 20px 25px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.send:hover{
+    background-color: rgb(216, 76, 76);
+}
+footer{
+    border-top: 5px solid red;
+    background-color: #514646;
+    padding: 50px;
+    text-align: center;
+}
+footer p{
+    color: white;
+    font-size: 20px;
+}
